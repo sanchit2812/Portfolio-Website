@@ -1,0 +1,113 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+}
+
+.main-part-introduction{
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 40px 0;
+  background-color: #1abc9c;
+  border-color: #16a085;
+}
+
+@media (max-width: 768px ) {
+  .navbar{
+    padding: 15px 0;
+  }
+}
+.navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-nav>li>a:hover {
+  color: #222222;
+}
+
+.navbar-left {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+.navbar-right{
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: right;
+  color: white;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#footer p {
+  color: white;
+}
+
+#footer h4 {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.project-info {
+  margin-right: 24px;
+}
+
+.project-photo {
+  width: 10%;
+  border-radius: 10%;
+}
+
+.project-links {
+  margin-top: 6px;
+  display: flex;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #000;
+}
+.fi-rr-globe:before {
+  content: "\f1d9";
+}
+.link-button, .link-button i {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  flex: 1 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+  padding: 8px 0;
+}
+.tag {
+  padding: 4px 8px;
+  background-color: #0ff;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+}

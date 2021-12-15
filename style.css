@@ -98,13 +98,22 @@ body {
   margin: 16px 0;
   padding: 8px 0;
 }
-.tag {
+.tag-links {
   padding: 4px 8px;
   background-color: #FFCC66;
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
 }
+
+.tag{
+  padding: 4px 8px;
+  background-color: #99CCCC;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
+
 
 .navbar {
   margin-bottom: 0px;

@@ -8,6 +8,12 @@ body {
 
 body a{
   text-decoration: none;
+  color: #8B4513;
+}
+
+body a:hover {
+  color:#E3F4F5;
+  text-decoration : none;
 }
 
 .project-title{
@@ -19,32 +25,30 @@ body a{
   text-align: center;
 }
 
-
-@media (max-width: 768px ) {
-  .navbar{
-    padding: 15px 0;
-  }
-}
-.navbar-nav>li>a {
-  color: white;
-}
-
-.navbar-nav>li>a:hover {
-  color: #222222;
+.navbar {
+  margin-bottom: 0px;
+  padding: 25px 0;
+  background-color: #1abc9c;
+  border-color: #CC9966;
 }
 
 .navbar-left {
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
 }
+
 .navbar-right{
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 2px;
   text-align: right;
-  color: white;
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 #footer {
@@ -121,13 +125,6 @@ body a{
   margin-right: 6px;
   margin-bottom: 4px;
 }
-
-.navbar {
-  margin-bottom: 0px;
-  padding: 25px 0;
-  background-color: #1abc9c;
-  border-color: #CC9966;
-}
 .social-icon {
   height: 40px;
 }
@@ -164,4 +161,10 @@ body a{
     justify-content: space-between;
     align-items: center;
     margin: 16px 0;
+}
+
+@media (max-width: 768px ) {
+  .navbar{
+    padding: 15px 0;
+  }
 }

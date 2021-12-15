@@ -121,3 +121,38 @@ body {
   background-color: #1abc9c;
   border-color: #CC9966;
 }
+
+
+.social-icon-div {
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px;
+  width="20";
+  height="20"
+}
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download {
+  background-color: #7fffd4;
+  padding: 8px 16px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.contact-left {
+  max-width: 60%;
+  font-size: 20px;
+  text-align: center;
+}
+.contact-container {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+}

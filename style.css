@@ -10,12 +10,6 @@ body {
   text-align: center;
 }
 
-.navbar {
-  margin-bottom: 0px;
-  padding: 40px 0;
-  background-color: #1abc9c;
-  border-color: #16a085;
-}
 
 @media (max-width: 768px ) {
   .navbar{
@@ -106,8 +100,15 @@ body {
 }
 .tag {
   padding: 4px 8px;
-  background-color: #0ff;
+  background-color: #FF9966;
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 25px 0;
+  background-color: #1abc9c;
+  border-color: #CC9966;
 }
